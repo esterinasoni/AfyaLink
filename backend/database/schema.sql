@@ -21,7 +21,7 @@ CREATE TABLE patients (
     email           VARCHAR(200) UNIQUE,
     blood_type      VARCHAR(5) CHECK (blood_type IN ('A+', 'A-', 'B+', 'B-', 'AB-','AB+', 'O+', 'O-')),
     allergies       TEXT,
-    password_hash   VARCHAR(255) NOT NULL,  -- NEVER store plain passwords
+    password_hash   VARCHAR(255) NOT NULL,  
     created_at      TIMESTAMP DEFAULT NOW(),
     updated_at      TIMESTAMP DEFAULT NOW()
 );
