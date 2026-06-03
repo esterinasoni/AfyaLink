@@ -45,7 +45,7 @@ class PatientCreate(BaseModel):
         return v
 
 
-# Data returned after patient registration — never send password back
+# Data returned after patient registration - password not included
 class PatientResponse(BaseModel):
     id:            UUID
     national_id:   str

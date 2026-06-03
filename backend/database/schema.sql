@@ -215,70 +215,70 @@ INSERT INTO doctors (hospital_id, full_name, specialisation, licence_number, pho
     (SELECT id FROM hospitals WHERE khis_code = '13001'),
     'Dr. Amina Odhiambo', 'Internal Medicine', 'KMP-10234',
     '+254711000001', 'amina.odhiambo@knh.or.ke',
-    '$2b$12$KIXuRmPDvKMBkAbWlMnfCOHQQ2b3LmHgBz1nECZdXr9KJYwPqmBfS',
+    '$2b$12$Mo0Sxw/gHX922Hpze9e1TeyWOrZ6oBiUzxSqT5ly9S49zrZDY.1Ae',
     'doctor'
 ),
 (
     (SELECT id FROM hospitals WHERE khis_code = '13001'),
     'James Kariuki', 'Pharmacy', 'KPB-00412',
     '+254711000002', 'james.kariuki@knh.or.ke',
-    '$2b$12$KIXuRmPDvKMBkAbWlMnfCOHQQ2b3LmHgBz1nECZdXr9KJYwPqmBfS',
+    '$2b$12$Mo0Sxw/gHX922Hpze9e1TeyWOrZ6oBiUzxSqT5ly9S49zrZDY.1Ae',
     'pharmacist'
 ),
 (
     (SELECT id FROM hospitals WHERE khis_code = '13005'),
     'Dr. Priya Patel', 'Cardiology', 'KMP-20891',
     '+254711000003', 'priya.patel@agakhanhospitals.org',
-    '$2b$12$KIXuRmPDvKMBkAbWlMnfCOHQQ2b3LmHgBz1nECZdXr9KJYwPqmBfS',
+    '$2b$12$Mo0Sxw/gHX922Hpze9e1TeyWOrZ6oBiUzxSqT5ly9S49zrZDY.1Ae',
     'doctor'
 ),
 (
     (SELECT id FROM hospitals WHERE khis_code = '13006'),
     'Dr. Brian Mwangi', 'General Practice', 'KMP-31045',
     '+254711000004', 'brian.mwangi@mpshah.org',
-    '$2b$12$KIXuRmPDvKMBkAbWlMnfCOHQQ2b3LmHgBz1nECZdXr9KJYwPqmBfS',
+    '$2b$12$Mo0Sxw/gHX922Hpze9e1TeyWOrZ6oBiUzxSqT5ly9S49zrZDY.1Ae',
     'doctor'
 ),
 (
     (SELECT id FROM hospitals WHERE khis_code = '22001'),
     'Dr. Faith Chebet', 'Paediatrics', 'KMP-41230',
     '+254711000005', 'faith.chebet@mtrh.go.ke',
-    '$2b$12$KIXuRmPDvKMBkAbWlMnfCOHQQ2b3LmHgBz1nECZdXr9KJYwPqmBfS',
+    '$2b$12$Mo0Sxw/gHX922Hpze9e1TeyWOrZ6oBiUzxSqT5ly9S49zrZDY.1Ae',
     'doctor'
 ),
 (
     (SELECT id FROM hospitals WHERE khis_code = '14001'),
     'Nurse Grace Akinyi', 'Nursing', NULL,
     '+254711000006', 'grace.akinyi@coastgeneral.go.ke',
-    '$2b$12$KIXuRmPDvKMBkAbWlMnfCOHQQ2b3LmHgBz1nECZdXr9KJYwPqmBfS',
+    '$2b$12$Mo0Sxw/gHX922Hpze9e1TeyWOrZ6oBiUzxSqT5ly9S49zrZDY.1Ae',
     'nurse'
 ),
 (
     (SELECT id FROM hospitals WHERE khis_code = '16003'),
     'Dr. Samuel Njoroge', 'Surgery', 'KMP-52341',
     '+254711000007', 'samuel.njoroge@kijabehospital.org',
-    '$2b$12$KIXuRmPDvKMBkAbWlMnfCOHQQ2b3LmHgBz1nECZdXr9KJYwPqmBfS',
+    '$2b$12$Mo0Sxw/gHX922Hpze9e1TeyWOrZ6oBiUzxSqT5ly9S49zrZDY.1Ae',
     'doctor'
 ),
 (
     (SELECT id FROM hospitals WHERE khis_code = '18001'),
     'Dr. Otieno Omondi', 'Obstetrics and Gynaecology', 'KMP-63452',
     '+254711000008', 'otieno.omondi@jootrh.go.ke',
-    '$2b$12$KIXuRmPDvKMBkAbWlMnfCOHQQ2b3LmHgBz1nECZdXr9KJYwPqmBfS',
+    '$2b$12$Mo0Sxw/gHX922Hpze9e1TeyWOrZ6oBiUzxSqT5ly9S49zrZDY.1Ae',
     'doctor'
 ),
 (
     (SELECT id FROM hospitals WHERE khis_code = '13007'),
     'Dr. Catherine Waweru', 'Dermatology', 'KMP-74563',
     '+254711000009', 'catherine.waweru@nairobihospital.org',
-    '$2b$12$KIXuRmPDvKMBkAbWlMnfCOHQQ2b3LmHgBz1nECZdXr9KJYwPqmBfS',
+    '$2b$12$Mo0Sxw/gHX922Hpze9e1TeyWOrZ6oBiUzxSqT5ly9S49zrZDY.1Ae',
     'doctor'
 ),
 (
     (SELECT id FROM hospitals WHERE khis_code = '13001'),
     'Admin User KNH', NULL, NULL,
     '+254711000010', 'admin@knh.or.ke',
-    '$2b$12$KIXuRmPDvKMBkAbWlMnfCOHQQ2b3LmHgBz1nECZdXr9KJYwPqmBfS',
+    '$2b$12$Mo0Sxw/gHX922Hpze9e1TeyWOrZ6oBiUzxSqT5ly9S49zrZDY.1Ae',
     'admin'
 );
 
@@ -287,13 +287,13 @@ INSERT INTO doctors (hospital_id, full_name, specialisation, licence_number, pho
 -- PATIENTS
 -- ============================================================
 INSERT INTO patients (national_id, full_name, date_of_birth, gender, phone, email, blood_type, allergies, password_hash) VALUES
-('12345678', 'Wanjiku Kamau',      '1990-03-14', 'female', '+254722100001', 'wanjiku.kamau@gmail.com',    'O+',  'Penicillin',                  '$2b$12$KIXuRmPDvKMBkAbWlMnfCOHQQ2b3LmHgBz1nECZdXr9KJYwPqmBfS'),
-('23456789', 'Otieno Ochieng',     '1985-07-22', 'male',   '+254722100002', 'otieno.ochieng@gmail.com',   'A+',  NULL,                          '$2b$12$KIXuRmPDvKMBkAbWlMnfCOHQQ2b3LmHgBz1nECZdXr9KJYwPqmBfS'),
-('34567890', 'Fatuma Hassan',      '1978-11-05', 'female', '+254722100003', 'fatuma.hassan@gmail.com',    'B+',  'Sulfonamides, Aspirin',        '$2b$12$KIXuRmPDvKMBkAbWlMnfCOHQQ2b3LmHgBz1nECZdXr9KJYwPqmBfS'),
-('45678901', 'Kipchoge Ruto',      '1995-01-30', 'male',   '+254722100004', 'kipchoge.ruto@gmail.com',    'O-',  NULL,                          '$2b$12$KIXuRmPDvKMBkAbWlMnfCOHQQ2b3LmHgBz1nECZdXr9KJYwPqmBfS'),
-('56789012', 'Aisha Mombasa',      '2000-06-18', 'female', '+254722100005', 'aisha.mombasa@gmail.com',    'AB+', 'Ibuprofen',                   '$2b$12$KIXuRmPDvKMBkAbWlMnfCOHQQ2b3LmHgBz1nECZdXr9KJYwPqmBfS'),
-('67890123', 'Mwangi Njuguna',     '1972-09-09', 'male',   '+254722100006', 'mwangi.njuguna@gmail.com',   'A-',  'Latex',                       '$2b$12$KIXuRmPDvKMBkAbWlMnfCOHQQ2b3LmHgBz1nECZdXr9KJYwPqmBfS'),
-('78901234', 'Chebet Koech',       '1988-04-25', 'female', '+254722100007', 'chebet.koech@gmail.com',     'B-',  NULL,                          '$2b$12$KIXuRmPDvKMBkAbWlMnfCOHQQ2b3LmHgBz1nECZdXr9KJYwPqmBfS'),
-('89012345', 'Hassan Abdi',        '1965-12-01', 'male',   '+254722100008', 'hassan.abdi@gmail.com',      'O+',  'Codeine, Morphine',           '$2b$12$KIXuRmPDvKMBkAbWlMnfCOHQQ2b3LmHgBz1nECZdXr9KJYwPqmBfS'),
-('90123456', 'Njambi Gicheru',     '1993-08-14', 'female', '+254722100009', 'njambi.gicheru@gmail.com',   'AB-', 'Metronidazole',               '$2b$12$KIXuRmPDvKMBkAbWlMnfCOHQQ2b3LmHgBz1nECZdXr9KJYwPqmBfS'),
-('01234567', 'Baraka Mwamba',      '1980-02-28', 'male',   '+254722100010', 'baraka.mwamba@gmail.com',    'A+',  NULL,                          '$2b$12$KIXuRmPDvKMBkAbWlMnfCOHQQ2b3LmHgBz1nECZdXr9KJYwPqmBfS');
+('12345678', 'Wanjiku Kamau',      '1990-03-14', 'female', '+254722100001', 'wanjiku.kamau@gmail.com',    'O+',  'Penicillin',                  '$2b$12$Mo0Sxw/gHX922Hpze9e1TeyWOrZ6oBiUzxSqT5ly9S49zrZDY.1Ae'),
+('23456789', 'Otieno Ochieng',     '1985-07-22', 'male',   '+254722100002', 'otieno.ochieng@gmail.com',   'A+',  NULL,                          '$2b$12$Mo0Sxw/gHX922Hpze9e1TeyWOrZ6oBiUzxSqT5ly9S49zrZDY.1Ae'),
+('34567890', 'Fatuma Hassan',      '1978-11-05', 'female', '+254722100003', 'fatuma.hassan@gmail.com',    'B+',  'Sulfonamides, Aspirin',        '$2b$12$Mo0Sxw/gHX922Hpze9e1TeyWOrZ6oBiUzxSqT5ly9S49zrZDY.1Ae'),
+('45678901', 'Kipchoge Ruto',      '1995-01-30', 'male',   '+254722100004', 'kipchoge.ruto@gmail.com',    'O-',  NULL,                          '$2b$12$Mo0Sxw/gHX922Hpze9e1TeyWOrZ6oBiUzxSqT5ly9S49zrZDY.1Ae'),
+('56789012', 'Aisha Mombasa',      '2000-06-18', 'female', '+254722100005', 'aisha.mombasa@gmail.com',    'AB+', 'Ibuprofen',                   '$2b$12$Mo0Sxw/gHX922Hpze9e1TeyWOrZ6oBiUzxSqT5ly9S49zrZDY.1Ae'),
+('67890123', 'Mwangi Njuguna',     '1972-09-09', 'male',   '+254722100006', 'mwangi.njuguna@gmail.com',   'A-',  'Latex',                       '$2b$12$Mo0Sxw/gHX922Hpze9e1TeyWOrZ6oBiUzxSqT5ly9S49zrZDY.1Ae'),
+('78901234', 'Chebet Koech',       '1988-04-25', 'female', '+254722100007', 'chebet.koech@gmail.com',     'B-',  NULL,                          '$2b$12$Mo0Sxw/gHX922Hpze9e1TeyWOrZ6oBiUzxSqT5ly9S49zrZDY.1Ae'),
+('89012345', 'Hassan Abdi',        '1965-12-01', 'male',   '+254722100008', 'hassan.abdi@gmail.com',      'O+',  'Codeine, Morphine',           '$2b$12$Mo0Sxw/gHX922Hpze9e1TeyWOrZ6oBiUzxSqT5ly9S49zrZDY.1Ae'),
+('90123456', 'Njambi Gicheru',     '1993-08-14', 'female', '+254722100009', 'njambi.gicheru@gmail.com',   'AB-', 'Metronidazole',               '$2b$12$Mo0Sxw/gHX922Hpze9e1TeyWOrZ6oBiUzxSqT5ly9S49zrZDY.1Ae'),
+('01234567', 'Baraka Mwamba',      '1980-02-28', 'male',   '+254722100010', 'baraka.mwamba@gmail.com',    'A+',  NULL,                          '$2b$12$Mo0Sxw/gHX922Hpze9e1TeyWOrZ6oBiUzxSqT5ly9S49zrZDY.1Ae');

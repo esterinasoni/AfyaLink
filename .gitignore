@@ -229,3 +229,9 @@ __pycache__/
 # Node (for later when we build frontend)
 node_modules/
 .next/
+
+# macOS
+.DS_Store
+
+# VS Code
+.vscode/
