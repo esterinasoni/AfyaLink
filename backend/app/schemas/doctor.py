@@ -25,12 +25,12 @@ class DoctorLoginResponse(BaseModel):
 
 # Doctor profile returned from API - password not included
 class DoctorResponse(BaseModel):
-    id:            str
-    hospital_id:   str
+    id:            uuid.UUID
+    hospital_id:   uuid.UUID
     full_name:     str
-    specialisation: Optional[str]
-    licence_number: Optional[str]
-    phone:         Optional[str]
+    specialisation: Optional[str] = None
+    licence_number: Optional[str] = None
+    phone:         Optional[str] = None
     email:         str
     role:          str
     is_active:     bool

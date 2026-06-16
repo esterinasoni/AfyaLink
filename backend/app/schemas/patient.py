@@ -51,11 +51,11 @@ class PatientResponse(BaseModel):
     national_id:   str
     full_name:     str
     date_of_birth: date
-    gender:        Optional[str]
+    gender:        Optional[str] = None
     phone:         str
-    email:         Optional[str]
-    blood_type:    Optional[str]
-    allergies:     Optional[str]
+    email:         Optional[str] = None
+    blood_type:    Optional[str] = None
+    allergies:     Optional[str] = None
     created_at:    datetime
 
     class Config:
