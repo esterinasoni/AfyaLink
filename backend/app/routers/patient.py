@@ -32,7 +32,7 @@ EXPIRE_MIN = int(os.getenv("ACCESS_TOKEN_EXPIRE_MINUTES", 30))
 def create_token(data: dict):
     """Create a JWT token for a logged-in patient"""
     payload = data.copy()
-    expire = datetime.now(UTC) + timedelta(minutes=EXPIRE_MIN)
+    expire = datetime.utcnow() + timedelta(minutes=EXPIRE_MIN)
     payload.update({"exp": expire})
     return jwt.encode(payload, SECRET_KEY, algorithm=ALGORITHM)
 
