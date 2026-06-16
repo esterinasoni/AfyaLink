@@ -3,7 +3,7 @@
 
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
-from app.routers import patient, doctor
+from app.routers import patient, doctor, hospitals
 
 # Create the FastAPI application
 app = FastAPI(
@@ -24,6 +24,7 @@ app.add_middleware(
 # Register routers — connect patient routers/endpoints to the main app
 app.include_router(patient.router)
 app.include_router(doctor.router)
+app.include_router(hospitals.router)
 # Root endpoint — simple test route to confirm API is working
 @app.get("/")
 def root():
